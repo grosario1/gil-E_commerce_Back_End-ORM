@@ -2,6 +2,9 @@ const { Model, DataTypes } = require('sequelize');
 
 const sequelize = require('../config/connection.js');
 
+//This line imports the product model
+const Product = require('./Product');
+
 class Category extends Model {}
 
 Category.init(
