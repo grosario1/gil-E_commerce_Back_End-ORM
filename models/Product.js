@@ -10,6 +10,12 @@ class Product extends Model {}
 Product.init(
   {
     // Define the columns 
+    id: {
+      type: DataTypes.INTEGER,
+      allowNull: false,
+      primaryKey: true,
+      autoIncrement: true,
+    },
     product_name: {
       type: DataTypes.STRING,
       allowNull: false,
@@ -38,5 +44,14 @@ Product.init(
     modelName: 'product',
   }
 );
+
+Product.belongsTo(Category, {
+  foreignKey: 'category_id',
+});
+
+Product.belongsToMany(Tag, {
+  through: ProductTag,
+  foreignKey: 'product_id',
+});
 
 module.exports = Product;
