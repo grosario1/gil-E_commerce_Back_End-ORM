@@ -3,7 +3,7 @@ const { Model, DataTypes } = require('sequelize');
 const sequelize = require('../config/connection.js');
 
 //This line imports the product model
-const Product = require('./Product');
+const Product = require('../models/Product');
 
 class Category extends Model {}
 
