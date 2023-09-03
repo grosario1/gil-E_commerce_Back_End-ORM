@@ -1,4 +1,4 @@
-[gil-rosario-E_commerce_Back_End-ORM.webm](https://github.com/grosario1/gil-E_commerce_Back_End-ORM/assets/26330325/3e5f399a-e9e0-48a3-9155-318d047d88d6)# gil-E_commerce_Back_End-ORM
+# gil-E_commerce_Back_End-ORM
 ## Description
 
 Internet retail, also known as e-commerce, plays a significant role within the electronics industry, as it empowers businesses and consumers alike to conveniently engage in online buying and selling of electronic products. In the latest available data from 2021, the industry in the United States alone was estimated to have generated the substantial amount of US$2.54 trillion, according to the United Nations Conference on Trade and Development. E-commerce platforms like Shopify and WooCommerce provide a suite of services to businesses of all sizes. With that being said, this project was developed using some starter code to create a back-end app for an e-commerce type applicattion. The bases of this app uses the CLI and ORM mapping for getting data, storing data and or updating data using different types of RESTFUL api calls:
