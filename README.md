@@ -1,7 +1,13 @@
 # gil-E_commerce_Back_End-ORM
 ## Description
 
-Info Coming Soon
+Internet retail, also known as e-commerce, plays a significant role within the electronics industry, as it empowers businesses and consumers alike to conveniently engage in online buying and selling of electronic products. In the latest available data from 2021, the industry in the United States alone was estimated to have generated the substantial amount of US$2.54 trillion, according to the United Nations Conference on Trade and Development. E-commerce platforms like Shopify and WooCommerce provide a suite of services to businesses of all sizes. With that being said, this project was developed using some starter code to create a back-end app for an e-commerce type applicattion. The bases of this app uses the CLI and ORM mapping for getting data, storing data and or updating data using different types of RESTFUL api calls:
+
+  Methods of HTTP calls:
+      - GET
+      - POST
+      - UPDATE
+      - DELETE
 
 ## Table of Contents
 - [gil-E\_commerce\_Back\_End-ORM](#gil-e_commerce_back_end-orm)
@@ -37,9 +43,11 @@ Query OK, 1 row affected (0.00 sec)
 
 Database changed
 ```
-- **Step $5:** From directory where you cloned the repo, run `node run seed` to seed the database with the data.
+- **Step $5:** From directory where you cloned the repo, run `npm run seed` to seed the database with the data.
 
-- **Step #6:** From directory where you cloned the repo, run `node server.js` from the command line and then the app will start listening in your localhost on port 3001 and now the Employee Manager App should load with prompts.
+- **Step #6:** From directory where you cloned the repo, run `npm run start` from the command line to start the npm app and the app will start listening in your localhost on port 3001.
+
+- **Step #7:** You can now use an api development platform tool such as Postman (https://www.postman.com) or Insomnia (https://insomnia.rest/) to test the api routes for this app. See demo below using Insomnia to test the routes:
 
 - Example of ORM app - Ecomm backend (see demo video):
 
