@@ -55,7 +55,7 @@ Database changed
 
 [Walkthrough video](https://drive.google.com/file/d/12wKWtG1kSlMuQ_JOUTms_EWtJNIjoUZH/view?t=6s)
 
-[GR-ORM_Insomnia](https://github.com/grosario1/gil-E_commerce_Back_End-ORM/assets/26330325/7a7a5222-3754-4acc-83b3-c145aa5a5d77)(https://drive.google.com/file/d/12wKWtG1kSlMuQ_JOUTms_EWtJNIjoUZH/view?t=6s)
+[![GR-ORM_Insomnia](https://github.com/grosario1/gil-E_commerce_Back_End-ORM/assets/26330325/7a7a5222-3754-4acc-83b3-c145aa5a5d77)](https://drive.google.com/file/d/12wKWtG1kSlMuQ_JOUTms_EWtJNIjoUZH/view?t=6s)
 
 
 You can find code repo [here.](https://github.com/grosario1/gil-E_commerce_Back_End-ORM)
