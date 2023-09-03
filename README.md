@@ -53,8 +53,8 @@ Database changed
 
 - Example of ORM app - Ecomm backend (see demo video):
 
-[![walthrough video](https://github.com/grosario1/gil-E_commerce_Back_End-ORM/assets/26330325/008c97b2-eec6-4d8b-93f5-441b6d3ad3e0)
-)](https://drive.google.com/file/d/12wKWtG1kSlMuQ_JOUTms_EWtJNIjoUZH/view?t=6s)
+[![walthrough video]([https://github.com/grosario1/gil-E_commerce_Back_End-ORM/assets/26330325/008c97b2-eec6-4d8b-93f5-441b6d3ad3e0)
+](https://drive.google.com/file/d/12wKWtG1kSlMuQ_JOUTms_EWtJNIjoUZH/view?t=6s))]
 
 
 You can find code repo [here.](https://github.com/grosario1/gil-E_commerce_Back_End-ORM)
