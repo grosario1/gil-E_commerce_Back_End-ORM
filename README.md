@@ -52,7 +52,7 @@ Database changed
 
 - Example of ORM app - Ecomm backend (see demo video):
 
-[gil-rosario-E_commerce_Back_End-ORM.webm](https://github.com/grosario1/gil-E_commerce_Back_End-ORM/assets/26330325/18b9ba3b-281b-4952-a41c-3c380c93dbae)
+[![ORM backend - Ecommerce](./../GR-ORM_Insomnia.jpg)](https://drive.google.com/file/d/12wKWtG1kSlMuQ_JOUTms_EWtJNIjoUZH/view?t=6s)
 
 
 You can find code repo [here.](https://github.com/grosario1/gil-E_commerce_Back_End-ORM)
