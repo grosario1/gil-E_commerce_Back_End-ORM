@@ -38,7 +38,7 @@ Query OK, 1 row affected (0.00 sec)
 Database changed
 ```
 - **Step $5:** From directory where you cloned the repo, run `node run seed` to seed the database with the data.
-- 
+
 - **Step #6:** From directory where you cloned the repo, run `node server.js` from the command line and then the app will start listening in your localhost on port 3001 and now the Employee Manager App should load with prompts.
 
 - Example of ORM app - Ecomm backend (see demo video):
