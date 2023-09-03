@@ -52,6 +52,7 @@ Database changed
 
 - Example of ORM app - Ecomm backend (see demo video):
 
+[Untitled_ Sep 3, 2023 10_45 AM.webm](https://github.com/grosario1/gil-E_commerce_Back_End-ORM/assets/26330325/2dd72796-450f-48a5-97fe-3403f9539c64)
 
 
 You can find code repo [here.](https://github.com/grosario1/gil-E_commerce_Back_End-ORM) 
