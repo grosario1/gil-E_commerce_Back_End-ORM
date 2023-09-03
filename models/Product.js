@@ -1,11 +1,13 @@
-// import important parts of sequelize library
+//this line will import important parts of sequelize library
 const { Model, DataTypes } = require('sequelize');
-// import our database connection from config.js
+//this line will import our database connection from config.js
 const sequelize = require('../config/connection');
-//import the category model
-const Category = require('../models/Category');
-//import the Tag model
-const Tag = require('../models/Tag')
+//this line will import the category model
+const Category = require('./Category');
+//this line will import the Tag model
+const Tag = require('./Tag')
+//this line will import the ProductTag model
+const ProductTag = require('./ProductTag')
 
 // Initialize Product model (table) by extending off Sequelize's Model class
 class Product extends Model {}
@@ -27,15 +29,21 @@ Product.init(
     price: {
       type: DataTypes.DECIMAL(10, 2),
       allowNull: false,
+      validate: {
+        isDecimal: true,
+      },
     },
     stock: {
       type: DataTypes.INTEGER,
       allowNull: false,
+      validate: {
+        isNumeric: true,
+      },
     },
     category_id: {
       type: DataTypes.INTEGER,
       references: {
-        model: 'category',
+        model: Category, 
         key: 'id',
       },
     },
@@ -49,13 +57,13 @@ Product.init(
   }
 );
 
-Product.belongsTo(Category, {
-  foreignKey: 'category_id',
-});
+// Product.belongsTo(Category, {
+//   foreignKey: 'category_id',
+// });
 
-Product.belongsToMany(Tag, {
-  through: ProductTag,
-  foreignKey: 'product_id',
-});
+// Product.belongsToMany(Tag, {
+//   through: ProductTag,
+//   foreignKey: 'product_id',
+// });
 
 module.exports = Product;
